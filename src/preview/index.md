@@ -3,14 +3,14 @@ marp: true
 theme: yKicchan
 paginate: true
 image: https://yKicchan.github.io/awesome-marp-template/preview/index.png
-title: Preview slide
+title: Demo slide
 description: Preview test of slides created with Marp.
 keywords: Marp
 ---
 
 <!-- _class: lead -->
 
-# Preview Slide
+# Demo Slide
 
 ![bg right w:256](./images/marp.png)
 

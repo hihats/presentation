@@ -1,6 +1,6 @@
 /* @theme global */
 
-/* グローバルに影響させたい自分のカスタムテーマをここに設定する */
+/* Custom theme affecting the entire slide */
 
 /* common */
 section *::selection {
