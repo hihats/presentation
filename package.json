@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "An ultimate Marp template for your awesome presentation!",
   "main": "engine.mjs",
+  "private": true,
   "keywords": [
     "marp",
     "markdown",
@@ -16,7 +17,7 @@
     "dev": "marp --debug=true -w --html -s src",
     "dev:tmp": "marp --debug=true -w --html -s template",
     "prebuild": "rm -rf dist && mkdir -p dist && cp -r src/* dist",
-    "build": "marp dist --image png && marp dist",
+    "build": "marp dist --image png && marp --pdf dist && marp dist",
     "start": "marp --html -s dist"
   },
   "packageManager": "pnpm@9.15.1+sha512.1acb565e6193efbebda772702950469150cf12bcc764262e7587e71d19dc98a423dff9536e57ea44c49bdf790ff694e83c27be5faa23d67e0c033b583be4bfcf",
