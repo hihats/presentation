@@ -1,0 +1,13 @@
+/* @theme yKicchan */
+
+/* デフォルトの Marp テーマ */
+/* See: https://github.com/marp-team/marp-core/blob/main/themes/README.md */
+@import 'default';
+
+/* Prisma による Syntax highlighting */
+/* See: https://github.com/PrismJS/prism-themes/tree/master/themes */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-vsc-dark-plus.min.css');
+
+/* カスタムテーマの読み込み */
+@import 'global';
+@import 'utility';

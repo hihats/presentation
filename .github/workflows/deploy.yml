@@ -1,0 +1,53 @@
+name: Deploy to GitHub Pages
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "src/**"
+      - ".github/workflows/deploy.yml"
+
+env:
+  TZ: 'Asia/Tokyo'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: ./.github/actions/setup
+      # OGP の URL と スライドのディレクトリ構造が正しいかチェック
+      - name: Check OGP url
+        run: pnpm check
+      # 日本語文字化け防止のために font インストール
+      - name: Install font
+        run: sudo apt install fonts-noto
+      # Marp スライドの HTML 化と OGP 画像の生成
+      - name: Build slides
+        run: pnpm build
+      # 各スライドへのアクセス用インデックスページの生成
+      - name: Generate directory listing
+        uses: yKicchan/generate-directory-listing-action@v1
+        with:
+          target: dist
+      - name: Upload artifacts
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "dist/"
+  deploy:
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
