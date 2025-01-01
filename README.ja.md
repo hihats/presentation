@@ -12,7 +12,7 @@ Language: [🇺🇸](./README.md) [🇯🇵](./README.ja.md)
 - 🎨 CSS ユーティリティクラスによる多彩なスライド表現
 - 🔧 新しいスライドをテンプレートから簡単に作成できるスクリプト
 
-このリポジトリを利用したデモスライドは [GitHubPages](https://yKicchan.github.io/awesome-marp-template/preview) を参照してください。
+このリポジトリを利用したデモスライドは [GitHubPages](https://yKicchan.github.io/awesome-marp-template/preview) を参照してください。  
 Markdown 拡張構文や CSS ユーティリティクラスを使って、あなただけのオリジナルスライド環境を構築してください！
 
 ## ディレクトリ構造
