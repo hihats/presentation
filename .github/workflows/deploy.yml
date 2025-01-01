@@ -20,16 +20,16 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Node.js
         uses: ./.github/actions/setup
-      # OGP の URL と スライドのディレクトリ構造が正しいかチェック
+      # Check if the OGP URLs and slide directory structure are correct
       - name: Check OGP url
         run: ./scripts/check
-      # 日本語文字化け防止のために font インストール
+      # Install fonts to prevent character encoding issues
       - name: Install font
         run: sudo apt install fonts-noto
-      # Marp スライドの HTML 化と OGP 画像の生成
+      # Convert Marp slides to HTML and generate PDF and OGP images
       - name: Build slides
-        run: pnpm build
-      # 各スライドへのアクセス用インデックスページの生成
+        run: pnpm run build
+      # Generate an index page for accessing each slide
       - name: Generate directory listing
         uses: yKicchan/generate-directory-listing-action@v1
         with:
