@@ -1,5 +1,8 @@
 #!/bin/bash
+# Script to initialize the repository by replacing all specific names
 
+# Exit early
+# See: https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html#The-Set-Builtin
 set -e
 
 # variables

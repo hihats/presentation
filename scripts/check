@@ -1,5 +1,5 @@
 #!/bin/bash
-# スライドの OGP 画像の URL がファイル構造と一致していて正しいかチェックするスクリプト
+# Script to check if the OGP image URLs for slides match the file structure and are correct
 
 # Exit early
 # See: https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html#The-Set-Builtin
