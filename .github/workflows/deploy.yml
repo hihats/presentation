@@ -22,7 +22,7 @@ jobs:
         uses: ./.github/actions/setup
       # OGP の URL と スライドのディレクトリ構造が正しいかチェック
       - name: Check OGP url
-        run: pnpm check
+        run: ./scripts/check
       # 日本語文字化け防止のために font インストール
       - name: Install font
         run: sudo apt install fonts-noto
