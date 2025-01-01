@@ -2,6 +2,11 @@
 
 /* グローバルに影響させたい自分のカスタムテーマをここに設定する */
 
+/* common */
+section *::selection {
+  background: rgba(110, 110, 255, 0.38);
+}
+
 /* link */
 a {
   text-decoration: underline;
@@ -45,8 +50,8 @@ mark {
 
 /* code block */
 marp-pre {
-  background-color: #151b23;
+  border-radius: 8px;
 }
 :not(marp-pre) code {
-  padding: .125em .25em;
+  border-radius: 8px;
 }

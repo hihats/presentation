@@ -8,6 +8,8 @@ description:
 keywords:
 ---
 
+<!-- _class: lead -->
+
 # Title
 
 <!-- _paginate: false -->

@@ -2,7 +2,7 @@
 
 /* デフォルトの Marp テーマ */
 /* See: https://github.com/marp-team/marp-core/blob/main/themes/README.md */
-@import 'default';
+@import 'gaia';
 
 /* Prisma による Syntax highlighting */
 /* See: https://github.com/PrismJS/prism-themes/tree/master/themes */

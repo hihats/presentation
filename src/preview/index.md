@@ -3,12 +3,14 @@ marp: true
 theme: yKicchan
 paginate: true
 image: https://yKicchan.github.io/awesome-marp-template/preview/index.png
-title: Preview test slide
+title: Preview slide
 description: Preview test of slides created with Marp.
 keywords: Marp
 ---
 
-# Preview Test Slide
+<!-- _class: lead -->
+
+# Preview Slide
 
 ![bg right w:256](./images/marp.png)
 
@@ -240,7 +242,7 @@ h3 {
 
 ---
 
-### CodeBlock `name=filename`
+### CodeBlock + `{name=filename}`
 
 ```tsx {name=component.tsx}
 interface P {
