@@ -16,7 +16,11 @@ OGP_SET_PREFIX="image:"
 RED="\x1b[31m"
 GREEN="\x1b[32m"
 YELLOW="\x1b[33m"
+CYAN="\x1b[36m"
 OFF="\x1b[0m"
+
+# Underline
+INS="\x1b[4m"
 
 # Retrieve the paths of specified files
 slide_file_paths=$(find "$SRC_DIR" -type f -name "$SLIDE_FILENAME")
@@ -39,7 +43,10 @@ actual_image_urls_arr=($actual_image_urls)
 expected_image_urls_arr=($expected_image_urls)
 
 # Array to record mismatched URLs
-mismatched_messages=()
+mismatches=()
+path_idx=0
+expected_idx=1
+actual_idx=2
 
 # Compare the expected URLs with the actual URLs for each slide file
 for ((i = 0; i < ${#slide_file_paths_arr[@]}; i++)); do
@@ -48,19 +55,41 @@ for ((i = 0; i < ${#slide_file_paths_arr[@]}; i++)); do
   actual=${actual_image_urls_arr[$i]}
   if [[ "$expected" != "$actual" ]]; then
     # Record mismatched URLs
+    mismatches+=("$path $expected $actual")
     mismatched_messages+=("File: $path\n${GREEN}- Expected: $expected\n${RED}- Actual: $actual${OFF}")
   fi
 done
 
 # If all URLs match, exit normally
-if [[ ${#mismatched_messages[@]} -eq 0 ]]; then
+if [[ ${#mismatches[@]} -eq 0 ]]; then
   echo -e "${GREEN}All image URLs match the expected values.$OFF"
   exit 0
 fi
 
 # If mismatched URLs exist, output an error
-echo -e "${RED}The following mismatched image URLs were found:$OFF\n"
-for message in "${mismatched_messages[@]}"; do
-  echo -e "$message\n"
+for mismatch in "${mismatches[@]}"; do
+  read -r -a mismatch <<< "$mismatch"
+  echo -e "File: ${mismatch[path_idx]}\n${GREEN}- Expected: ${mismatch[expected_idx]}\n${RED}- Actual: ${mismatch[actual_idx]}${OFF}\n"
 done
-exit 1
+
+# If running on CI, exit with an error
+if [[ -n "$CI" ]]; then
+  echo -e "${RED}Mismatch found. Please fix the OGP image URLs.${OFF}"
+  exit 1
+fi
+
+# If running locally, ask the user if they want to fix the mismatched URLs
+echo -e "${YELLOW}Fix the mismatched opg image URLs?${OFF} [${INS}Y${OFF}/n]${OFF}"
+read -r answer
+if [[ "$answer" =~ ^[Nn]$ ]]; then
+  exit 1
+fi
+
+# Fix the mismatched URLs
+for mismatch in "${mismatches[@]}"; do
+  read -r -a mismatch <<< "$mismatch"
+  sed -i "" "s|${mismatch[actual_idx]}|${mismatch[expected_idx]}|" "${mismatch[path_idx]}"
+  echo -e "- Fixed in: ${CYAN}${mismatch[path_idx]}${OFF}."
+done
+echo -e "${GREEN}All ogp image URLs have been fixed.$OFF"
+exit 0

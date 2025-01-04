@@ -19,11 +19,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Node.js
-        uses: ./.github/actions/setup
       # Check if the OGP URLs and slide directory structure are correct
       - name: Check OGP url
         run: ./scripts/check
+      - name: Setup Node.js
+        uses: ./.github/actions/setup
       # Install fonts to prevent character encoding issues
       - name: Install font
         run: sudo apt install fonts-noto
