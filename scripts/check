@@ -75,6 +75,7 @@ done
 # If running on CI, exit with an error
 if [[ -n "$CI" ]]; then
   echo -e "${RED}Mismatch found. Please fix the OGP image URLs.${OFF}"
+  echo -e "You can run the ${CYAN} pnpm run check ${OFF} command locally to fix the mismatched URLs."
   exit 1
 fi
 
