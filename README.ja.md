@@ -6,16 +6,18 @@ Language: [🇺🇸](./README.md) [🇯🇵](./README.ja.md)
 
 このリポジトリは [Marp](https://marp.app/) を最強に活用したスライドを、超簡単に作成できるテンプレートリポジトリです。
 
+## 🚀 機能一覧
+
 - 🚀 [GitHubActions](./.github/workflows/deploy.yml) による [GitHubPages](https://yKicchan.github.io/awesome-marp-template/) への自動デプロイ
-- 🖼️ タイトルスライドの OGP 画像設定
+- 🖼️ タイトルスライドの OGP 画像設定サポート
 - 🚄 Markdown 拡張構文による軽量なスライド作成
 - 🎨 CSS ユーティリティクラスによる多彩なスライド表現
 - 🔧 新しいスライドをテンプレートから簡単に作成できるスクリプト
 
 このリポジトリを利用したデモスライドは [GitHubPages](https://yKicchan.github.io/awesome-marp-template/preview) を参照してください。  
-Markdown 拡張構文や CSS ユーティリティクラスを使って、あなただけのオリジナルスライド環境を構築してください！
+Markdown 拡張構文や CSS ユーティリティクラスを使って、あなただけのオリジナルスライド環境を構築しましょう！
 
-## ディレクトリ構造
+## 📂 ディレクトリ構造
 
 主要なディレクトリとファイルの内容は以下の通りです。  
 必要に応じて自分好みにカスタマイズしてください！
@@ -37,7 +39,7 @@ Markdown 拡張構文や CSS ユーティリティクラスを使って、あな
     └── utility.css # スライドで利用する各種ユーティリティクラス
 ```
 
-## 必須要件
+## ✅ 必須要件
 
 | ツール                            | バージョン   |
 |--------------------------------|---------|
@@ -47,7 +49,7 @@ Markdown 拡張構文や CSS ユーティリティクラスを使って、あな
 > [!tip]
 > Node.js は [nodenv](https://github.com/nodenv/nodenv) 等のバージョンマネージャを使ったインストールを推奨します。
 
-## 使い方
+## 🎉 使い方
 
 ### 0. リポジトリの作成
 
@@ -132,7 +134,7 @@ Marp は [Marpit](https://marpit.marp.app/) の機能を使ってスライドの
 - テーマの定義は [themes/index.css](./themes/index.css) に記述しています
   - 例えば Marp のデフォルトのテーマを変更したり、 (後述する[`markdown-it-prism`](https://github.com/jGleitz/markdown-it-prism)の導入によって可能となった) Syntax highlighting のスタイルを変更する場合に編集してください
 - スライド全体に影響を与える追加のカスタムテーマは [themes/global.css](./themes/global.css) に記述しています
-  - これを編集して、自分だけのオリジナルテーマを作成してください！
+  - これを編集して、自分だけのオリジナルテーマを作成しましょう！
 - スライドで利用できる便利なユーティリティクラスは [themes/utility.css](./themes/utility.css) に記述しています
   - 例えばテキストのサイズを変更したり、要素の列表示に対応するためのクラスを追加しています
   - デフォルトで便利な CSS クラスをいくつか用意していますが、必要に応じて自分好みにカスタマイズしてください！

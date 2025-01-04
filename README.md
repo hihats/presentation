@@ -6,8 +6,10 @@ Language: [🇺🇸](./README.md) [🇯🇵](./README.ja.md)
 
 This repository is a template repository that allows you to create slides utilizing [Marp](https://marp.app/) to its fullest potential, with ease.
 
+## 🚀 Features
+
 - 🚀 Automatic deployment to [GitHubPages](https://yKicchan.github.io/awesome-marp-template/) via [GitHubActions](./.github/workflows/deploy.yml)
-- 🖼️ OGP image settings for the title slide
+- 🖼️ Support for setting OGP images for the title slide
 - 🚄 Lightweight slide creation using Markdown extended syntax
 - 🎨 Diverse slide expressions with CSS utility classes
 - 🔧 A script to easily create new slides from the template
@@ -15,7 +17,7 @@ This repository is a template repository that allows you to create slides utiliz
 For demo slides using this repository, please refer to [GitHubPages](https://yKicchan.github.io/awesome-marp-template/preview).  
 Build your own original slide environment using Markdown extended syntax and CSS utility classes!
 
-## Directory Structure
+## 📂 Directory Structure
 
 The contents of the main directories and files are as follows.  
 Feel free to customize them to suit your preferences!
@@ -37,7 +39,7 @@ Feel free to customize them to suit your preferences!
     └── utility.css # Various utility classes used in the slides
 ```
 
-## Requirements
+## ✅ Requirements
 
 | Tools                          | version |
 |--------------------------------|---------|
@@ -47,7 +49,7 @@ Feel free to customize them to suit your preferences!
 > [!tip]
 > It is recommended to install Node.js using a version manager such as [nodenv](https://github.com/nodenv/nodenv).
 
-## Getting Started
+## 🎉 Getting Started
 
 ### 0. Create a repository from the template
 
