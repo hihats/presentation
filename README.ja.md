@@ -14,7 +14,7 @@ Language: [🇺🇸](./README.md) [🇯🇵](./README.ja.md)
 - 🎨 CSS ユーティリティクラスによる多彩なスライド表現
 - 🔧 新しいスライドをテンプレートから簡単に作成できるスクリプト
 
-このリポジトリを利用したデモスライドは [GitHubPages](https://yKicchan.github.io/awesome-marp-template/preview) を参照してください。  
+このリポジトリを利用したデモスライドは [GitHubPages](https://yKicchan.github.io/awesome-marp-template/demo) を参照してください。  
 Markdown 拡張構文や CSS ユーティリティクラスを使って、あなただけのオリジナルスライド環境を構築しましょう！
 
 ## 📂 ディレクトリ構造
@@ -31,7 +31,7 @@ Markdown 拡張構文や CSS ユーティリティクラスを使って、あな
 │   ├── init        # リポジトリのセットアップを行うスクリプト
 |   └── new         # 新しいスライドをテンプレートから作成するスクリプト
 ├── src/            # スライド用のディレクトリで、デプロイされる
-│    └── preview/   # デモ用のスライドディレクトリ
+│    └── demo/      # デモ用のスライドディレクトリ
 ├── template/       # テンプレートスライド用ディレクトリ
 └── themes
     ├── global.css  # スライド全体に影響させるカスタムテーマ
@@ -159,7 +159,7 @@ Markdown 拡張の設定は [engine.mjs](./engine.mjs) に記述しています�
 ## ✨究極の Marp スライド作成術✨
 
 最後にこのリポジトリの真髄である Markdown 拡張構文と、カスタムテーマの合体奥義を紹介します💪  
-実際の表示は [デモスライド](https://yKicchan.github.io/awesome-marp-template/preview) で確認できます。
+実際の表示は [デモスライド](https://yKicchan.github.io/awesome-marp-template/demo) で確認できます。
 
 ### `{.class}` で CSS クラスの付与
 

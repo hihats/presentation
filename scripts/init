@@ -40,7 +40,7 @@ replace_username_target_files=(
   "README.md"
   "themes/index.css"
   "template/index.md"
-  "src/preview/index.md"
+  "src/demo/index.md"
   "scripts/check"
 )
 # Files to replace the repository name with the user's
@@ -49,7 +49,7 @@ replace_repository_name_target_files=(
   "template/index.md"
   "README.md"
   "scripts/check"
-  "src/preview/index.md"
+  "src/demo/index.md"
 )
 
 # 2. Replace the GitHub ID and repository name in the target files

@@ -2,7 +2,7 @@
 marp: true
 theme: yKicchan
 paginate: true
-image: https://yKicchan.github.io/awesome-marp-template/preview/index.png
+image: https://yKicchan.github.io/awesome-marp-template/demo/index.png
 title: Demo slide
 description: Preview test of slides created with Marp.
 keywords: Marp

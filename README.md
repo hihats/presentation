@@ -14,7 +14,7 @@ This repository is a template repository that allows you to create slides utiliz
 - 🎨 Diverse slide expressions with CSS utility classes
 - 🔧 A script to easily create new slides from the template
 
-For demo slides using this repository, please refer to [GitHubPages](https://yKicchan.github.io/awesome-marp-template/preview).  
+For demo slides using this repository, please refer to [GitHubPages](https://yKicchan.github.io/awesome-marp-template/demo).  
 Build your own original slide environment using Markdown extended syntax and CSS utility classes!
 
 ## 📂 Directory Structure
@@ -31,7 +31,7 @@ Feel free to customize them to suit your preferences!
 │   ├── init        # Script for repository setup
 |   └── new         # Script to create new slides from the template
 ├── src/            # Slide directory for deployment
-│    └── preview/   # Demo slide directory
+│    └── demo/      # Demo slide directory
 ├── template/       # Template slide directory
 └── themes
     ├── global.css  # Custom theme affecting the entire slide
@@ -159,7 +159,7 @@ Please refer to the official documentation for each plugin.
 ## ✨The Ultimate Marp Slide Creation Technique ✨
 
 Finally, let me introduce the ultimate combination of Markdown extended syntax and custom themes, which is the essence of this repository 💪  
-You can check the actual display in the [demo slides](https://yKicchan.github.io/awesome-marp-template/preview).
+You can check the actual display in the [demo slides](https://yKicchan.github.io/awesome-marp-template/demo).
 
 ### Assigning CSS Classes with `{.class}`
 
