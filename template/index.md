@@ -1,8 +1,8 @@
 ---
 marp: true
-theme: yKicchan
+theme: hihats
 paginate: true
-image: https://yKicchan.github.io/awesome-marp-template/{{PATH}}/index.png
+image: https://hihats.github.io/presentation/{{PATH}}/index.png
 title:
 description:
 keywords:

@@ -1,0 +1,18 @@
+/* @theme theme */
+
+h1 {
+    border-bottom: none;
+    position: absolute;
+}
+h2 {
+    color: #191970;
+}
+h3 {
+    color: #6565BA;
+}
+strong {
+    color: #F0820C;
+}
+code {
+    background-color: rgb(250, 235, 216);
+}

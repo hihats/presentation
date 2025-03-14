@@ -1,5 +1,5 @@
 {
-  "name": "awesome-marp-template",
+  "name": "presentation",
   "version": "1.0.0",
   "description": "An ultimate Marp template for your awesome presentation!",
   "main": "engine.mjs",
@@ -11,7 +11,7 @@
     "slide",
     "template"
   ],
-  "author": "yKicchan",
+  "author": "hihats",
   "scripts": {
     "new": "scripts/new",
     "dev": "marp --debug=true -w --html -s src",

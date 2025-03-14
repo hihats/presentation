@@ -1,6 +1,6 @@
 Language: [🇺🇸](./README.md) [🇯🇵](./README.ja.md)
 
-[![Deploy](https://github.com/yKicchan/awesome-marp-template/actions/workflows/deploy.yml/badge.svg)](https://github.com/yKicchan/awesome-marp-template/actions/workflows/deploy.yml)
+[![Deploy](https://github.com/hihats/presentation/actions/workflows/deploy.yml/badge.svg)](https://github.com/hihats/presentation/actions/workflows/deploy.yml)
 
 # Awesome Marp Template
 
@@ -8,13 +8,13 @@ This repository is a template repository that allows you to create slides utiliz
 
 ## 🚀 Features
 
-- 🚀 Automatic deployment to [GitHubPages](https://yKicchan.github.io/awesome-marp-template/) via [GitHubActions](./.github/workflows/deploy.yml)
+- 🚀 Automatic deployment to [GitHubPages](https://hihats.github.io/presentation/) via [GitHubActions](./.github/workflows/deploy.yml)
 - 🖼️ Support for setting OGP images for the title slide
 - 🚄 Lightweight slide creation using Markdown extended syntax
 - 🎨 Diverse slide expressions with CSS utility classes
 - 🔧 A script to easily create new slides from the template
 
-For demo slides using this repository, please refer to [GitHubPages](https://yKicchan.github.io/awesome-marp-template/demo).  
+For demo slides using this repository, please refer to [GitHubPages](https://hihats.github.io/presentation/demo).  
 Build your own original slide environment using Markdown extended syntax and CSS utility classes!
 
 ## 📂 Directory Structure
@@ -74,7 +74,7 @@ $ scripts/init
 > [!warning]
 > The script uses the sed command.  
 > It works fine on Mac (BSD), but on Linux (GNU), the option syntax differs, which may cause errors.  
-> Linux (GNU) users should modify the [sed command in the script](https://github.com/yKicchan/awesome-marp-template/blob/main/scripts/init#L55-L66) as needed.
+> Linux (GNU) users should modify the [sed command in the script](https://github.com/hihats/presentation/blob/main/scripts/init#L55-L66) as needed.
 
 ### 2. Install Dependencies
 
@@ -159,7 +159,7 @@ Please refer to the official documentation for each plugin.
 ## ✨The Ultimate Marp Slide Creation Technique ✨
 
 Finally, let me introduce the ultimate combination of Markdown extended syntax and custom themes, which is the essence of this repository 💪  
-You can check the actual display in the [demo slides](https://yKicchan.github.io/awesome-marp-template/demo).
+You can check the actual display in the [demo slides](https://hihats.github.io/presentation/demo).
 
 ### Assigning CSS Classes with `{.class}`
 

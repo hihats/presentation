@@ -1,8 +1,8 @@
-/* @theme yKicchan */
+/* @theme hihats */
 
 /* The Marp theme in use */
 /* See: https://github.com/marp-team/marp-core/blob/main/themes/README.md */
-@import 'gaia';
+@import 'default';
 
 /* Syntax highlighting with Prisma */
 /* Choice in: https://github.com/PrismJS/prism-themes/tree/master/themes */
@@ -11,3 +11,4 @@
 /* Import custom theme */
 @import 'global';
 @import 'utility';
+@import 'theme';
