@@ -3,19 +3,19 @@ marp: true
 theme: hihats
 paginate: true
 image: https://hihats.github.io/presentation/{{PATH}}/index.png
-title: 1970年代以降のソフトウェア開発産業の課題：海外と日本の比較分析
+title: デジタル技術による職業変容の勃興〜DX
 description:
 keywords:
 ---
 
 <!-- _class: lead -->
 
-# ソフトウェア開発産業の興りからDXまで
+# デジタル技術による職業変容の勃興からDXまで
 ---
-# DXとは？を紐解くと、計算機資源によって人の仕事が変化し始めたのがどこからかまで遡る
+# DXとは？を紐解くと、計算機資源（とそれを支えるデジタル技術）によって人の仕事が変化し始めたのがどこからか？まで遡る
 ---
 
-![ENIAC](image-2.png)
+![height:500px](image-2.png)
 
 ---
 
