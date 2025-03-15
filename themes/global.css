@@ -55,10 +55,3 @@ marp-pre {
 :not(marp-pre) code {
   border-radius: 8px;
 }
-
-h2 {
-  color: #191970;
-}
-h3 {
-  color: #6565BA;
-}
