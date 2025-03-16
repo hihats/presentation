@@ -1,8 +1,15 @@
 /* @theme theme */
 
+section.lead h1 {
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    background-color: #191970;
+}  
 h1 {
     border-bottom: none;
     position: absolute;
+    margin-right: 100px;
 }
 h2 {
     color: #191970;
@@ -19,3 +26,8 @@ strong {
 code {
     background-color: rgb(250, 235, 216);
 }
+section > ul > li,
+section > ol > li {
+    font-size: .875em;
+}
+
