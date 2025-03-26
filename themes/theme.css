@@ -5,6 +5,11 @@ section.lead h1 {
     vertical-align: middle;
     color: white;
 }  
+section.caption > h2, 
+section.caption > p {
+    text-align: center;
+    color: white;
+}  
 h1 {
     border-bottom: none;
     position: absolute;
@@ -19,14 +24,23 @@ h3 {
 h4 {
     color: #4e7bb5;
 }
+p {
+    color: #0b0b41;
+}
 strong {
     color: #9d5407;
 }
 em {
     color: #2eab7f;
 }
+blockquote {
+    font-size: smaller;
+}
 code {
     background-color: rgb(250, 235, 216);
+}
+section > header {
+    font-size: x-large;
 }
 section > ul > li,
 section > ol > li {
