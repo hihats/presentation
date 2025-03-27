@@ -48,7 +48,7 @@ headingDivider: 2
 
 > 自分たちの努力ができる限り善のために使われるよう、ソフトウェアエンジニアを**社会にとって有益で尊敬される職業にすることを約束しなければならない**。（ACM and IEEE）
 
-[SoftwareEngineeringCodeofEthicsandProfessionalPractice.pdf](attachment:51b683d9-bf93-4405-bd4b-231b668ab48d:SoftwareEngineeringCodeofEthicsandProfessionalPractice.pdf)
+[Software Engineering Code of Ethics and Professional Practice](https://dl.acm.org/doi/pdf/10.1145/265684.265699)
 
 ---
 <!-- _header: ソフトウェアエンジニアとは -->
@@ -171,6 +171,13 @@ headingDivider: 2
 
 すべての相互利益の最大化を追求しなければならない
 
+# まとめ
+
+## 第一義的には「成果にこだわる」がポリシー
+- ポリシーがあってもなくても何も変わらないのでは意味がない
+- チームが同じ方向を向いて、日々の仕事をよくしていくためにポリシーを活用しましょう
+
+# Appendix
 ## その他（入れ方が固まっていない）
 <!-- header: "" -->
 
@@ -199,11 +206,3 @@ headingDivider: 2
 ### 必須スキル
   - 技術スキル
   - 非技術スキル
-
-
-# まとめ
-
-## 成果にこだわる
-- ポリシーがあってもなくても何も変わらないのでは意味がない
-- チームが同じ方向を向いて、日々の仕事をよくしていくために活用しましょう
-
