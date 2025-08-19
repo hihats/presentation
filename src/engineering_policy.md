@@ -2,7 +2,7 @@
 marp: true
 theme: hihats
 paginate: true
-image: https://hihats.github.io/presentation/{{PATH}}/index.png
+image: https://hihats.github.io/presentation/engineering_policy/index.png
 title: エンジニアリングポリシー
 description:
 keywords:
