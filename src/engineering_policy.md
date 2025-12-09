@@ -81,7 +81,7 @@ headingDivider: 2
 ---
 ### この「ソフトウェアエンジニアとしてのToBe」へと続く道から外れずに[「目的」](#本ポリシーの目的)を成していくための **価値** と **原則** を定義していく
 
-![bg vertical fit](images/image-1.png)
+![bg vertical fit](images/xpbridge.png)
 ---
 
 
