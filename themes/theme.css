@@ -5,6 +5,11 @@ section.lead h1 {
     vertical-align: middle;
     color: white;
 }  
+section.nolead h1 {
+    text-align: center;
+    vertical-align: middle;
+    color: transparent;
+}  
 section.caption > h2, 
 section.caption > p {
     text-align: center;
