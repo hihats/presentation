@@ -5,6 +5,7 @@ paginate: true
 title: エンジニアリングポリシーを作ったらドラえもんになった話
 header: "#yokohamanorth"
 description:
+image: https://hihats.github.io/presentation/images/policy_to_doraemon.png
 keywords:
 transition: cover
 headingDivider: 2
