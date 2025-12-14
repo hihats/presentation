@@ -4,8 +4,8 @@ theme: hihats
 paginate: true
 title: エンジニアリングポリシーを作ったらドラえもんになった話
 header: "#yokohamanorth"
-description:
-image: https://hihats.github.io/presentation/images/policy_to_doraemon.png
+description: 組織でエンジニアリングポリシーを作ることになり、その苦労話から思わぬ展開になった話。転生ネタではない。
+image: https://hihats.github.io/presentation/images/policy_to_doraemon-min.png
 keywords:
 transition: cover
 headingDivider: 2
@@ -13,7 +13,7 @@ headingDivider: 2
 
 <!-- _class: nolead -->
 # エンジニアリングポリシーを作ったらドラえもんになった話
-![bg](https://hihats.github.io/presentation/images/policy_to_doraemon.png)
+![bg](images/policy_to_doraemon-min.png)
 
 ## Index
 1. 自己紹介
