@@ -12,8 +12,8 @@ headingDivider: 2
 ---
 
 <!-- _class: nolead -->
-# エンジニアリングポリシーを作ったらドラえもんになった話
-![bg](images/policy_to_doraemon-min.png)
+# エンジニアリングポリシーを作ったらドラえもaんになった話
+![bg](https://hihats.github.io/presentation/images/policy_to_doraemon.png)
 
 ## Index
 1. 自己紹介
