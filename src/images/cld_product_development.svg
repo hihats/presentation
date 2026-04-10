@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 680" width="900" height="680">
+  <defs>
+    <marker id="ah" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#37474F"/>
+    </marker>
+    <marker id="ahf" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#C62828"/>
+    </marker>
+    <marker id="ahm" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#5D4037"/>
+    </marker>
+  </defs>
+
+  <!-- ====== CLOUD: Customer Value Cluster ====== -->
+  <ellipse cx="280" cy="465" rx="162" ry="90" fill="#FFF8E1" stroke="#E65100" stroke-width="1.5" stroke-dasharray="5 3" opacity="0.9"/>
+  <text x="280" y="565" text-anchor="middle" font-family="Hiragino Kaku Gothic ProN, Noto Sans JP, sans-serif" font-size="18" font-weight="bold" fill="#E65100">&#x9867;&#x5BA2;&#x4FA1;&#x5024;</text>
+
+  <!-- Internal variables (dots + labels) -->
+  <circle cx="185" cy="430" r="5" fill="#E65100"/>
+  <text x="185" y="420" text-anchor="middle" font-family="Hiragino Kaku Gothic ProN, Noto Sans JP, sans-serif" font-size="11" fill="#5D4037">NW&#x52B9;&#x679C;</text>
+  <circle cx="345" cy="425" r="5" fill="#E65100"/>
+  <text x="345" y="415" text-anchor="middle" font-family="Hiragino Kaku Gothic ProN, Noto Sans JP, sans-serif" font-size="11" fill="#5D4037">&#x4FE1;&#x983C;&#x6027;</text>
+  <circle cx="175" cy="490" r="5" fill="#E65100"/>
+  <text x="175" y="508" text-anchor="middle" font-family="Hiragino Kaku Gothic ProN, Noto Sans JP, sans-serif" font-size="11" fill="#5D4037">UX</text>
+  <circle cx="280" cy="460" r="5" fill="#E65100"/>
+  <text x="280" y="450" text-anchor="middle" font-family="Hiragino Kaku Gothic ProN, Noto Sans JP, sans-serif" font-size="11" fill="#5D4037">&#x54C1;&#x8CEA;</text>
+  <circle cx="365" cy="480" r="5" fill="#E65100"/>
+  <text x="365" y="498" text-anchor="middle" font-family="Hiragino Kaku Gothic ProN, Noto Sans JP, sans-serif" font-size="11" fill="#5D4037">&#x6D41;&#x52D5;&#x6027;</text>
+  <circle cx="250" cy="515" r="5" fill="#BF360C" opacity="0.4"/>
+  <circle cx="310" cy="520" r="5" fill="#BF360C" opacity="0.4"/>
+  <circle cx="210" cy="525" r="4" fill="#BF360C" opacity="0.3"/>
+  <text x="280" y="540" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#BF360C">&#x2026;</text>
+
+  <!-- Internal connections (thin, showing interrelation) -->
+  <line x1="185" y1="430" x2="280" y2="460" stroke="#BCAAA4" stroke-width="1"/>
+  <line x1="280" y1="460" x2="345" y2="425" stroke="#BCAAA4" stroke-width="1"/>
+  <line x1="175" y1="490" x2="280" y2="460" stroke="#BCAAA4" stroke-width="1"/>
+  <line x1="280" y1="460" x2="365" y2="480" stroke="#BCAAA4" stroke-width="1"/>
+  <line x1="185" y1="430" x2="175" y2="490" stroke="#BCAAA4" stroke-width="1"/>
+  <line x1="345" y1="425" x2="365" y2="480" stroke="#BCAAA4" stroke-width="1"/>
+  <line x1="185" y1="430" x2="345" y2="425" stroke="#BCAAA4" stroke-width="0.8" stroke-dasharray="3 2"/>
+  <line x1="175" y1="490" x2="365" y2="480" stroke="#BCAAA4" stroke-width="0.8" stroke-dasharray="3 2"/>
+
+  <!-- ====== MULTIPLE ARROWS: Cloud ? Revenue (the complex relationship) ====== -->
+  <path d="M 165 385 Q 140 310, 138 240" fill="none" stroke="#5D4037" stroke-width="2" marker-end="url(#ahm)"/>
+  <path d="M 195 382 Q 165 295, 158 240" fill="none" stroke="#5D4037" stroke-width="2" marker-end="url(#ahm)"/>
+  <path d="M 145 400 Q 110 320, 118 240" fill="none" stroke="#5D4037" stroke-width="2" marker-end="url(#ahm)"/>
+  <path d="M 225 378 Q 195 290, 175 240" fill="none" stroke="#5D4037" stroke-width="1.5" stroke-dasharray="5 3" marker-end="url(#ahm)"/>
+  <!-- Polarity: mixed -->
+  <text x="120" y="305" font-family="sans-serif" font-size="14" font-weight="bold" fill="#5D4037">+</text>
+  <text x="155" y="285" font-family="sans-serif" font-size="14" font-weight="bold" fill="#5D4037">+</text>
+  <text x="97" y="325" font-family="sans-serif" font-size="14" font-weight="bold" fill="#5D4037">&#x2013;</text>
+  <text x="200" y="295" font-family="sans-serif" font-size="14" fill="#5D4037">?</text>
+  <!-- Delay marks -->
+  <line x1="150" y1="335" x2="143" y2="348" stroke="#5D4037" stroke-width="2"/>
+  <line x1="157" y1="338" x2="150" y2="351" stroke="#5D4037" stroke-width="2"/>
+
+  <!-- ====== MAIN LOOP ARROWS (outer) ====== -->
+  <!-- 1: Revenue to Investment -->
+  <path d="M 180 182 Q 300 95, 378 60" fill="none" stroke="#37474F" stroke-width="2.5" marker-end="url(#ah)"/>
+  <text x="270" y="108" font-family="sans-serif" font-size="16" font-weight="bold" fill="#37474F">+</text>
+  <!-- 2: Investment to Capability -->
+  <path d="M 525 72 Q 620 100, 688 182" fill="none" stroke="#37474F" stroke-width="2.5" marker-end="url(#ah)"/>
+  <line x1="600" y1="108" x2="593" y2="122" stroke="#546E7A" stroke-width="2.5"/>
+  <line x1="607" y1="111" x2="600" y2="125" stroke="#546E7A" stroke-width="2.5"/>
+  <text x="615" y="105" font-family="sans-serif" font-size="16" font-weight="bold" fill="#37474F">+</text>
+  <!-- 3: Capability to Learning -->
+  <path d="M 755 233 Q 750 330, 700 402" fill="none" stroke="#37474F" stroke-width="2.5" marker-end="url(#ah)"/>
+  <line x1="750" y1="310" x2="740" y2="320" stroke="#546E7A" stroke-width="2.5"/>
+  <line x1="755" y1="317" x2="745" y2="327" stroke="#546E7A" stroke-width="2.5"/>
+  <text x="760" y="315" font-family="sans-serif" font-size="16" font-weight="bold" fill="#37474F">+</text>
+  <!-- 4: Learning to Cloud -->
+  <path d="M 608 440 Q 530 460, 442 462" fill="none" stroke="#37474F" stroke-width="2.5" marker-end="url(#ah)"/>
+  <line x1="520" y1="454" x2="520" y2="467" stroke="#546E7A" stroke-width="2.5"/>
+  <line x1="528" y1="454" x2="528" y2="467" stroke="#546E7A" stroke-width="2.5"/>
+  <text x="530" y="450" font-family="sans-serif" font-size="16" font-weight="bold" fill="#37474F">+</text>
+
+  <!-- ====== CROSS CONNECTIONS (inner, dashed red) ====== -->
+  <!-- Cloud to Learning -->
+  <path d="M 435 440 Q 510 420, 590 418" fill="none" stroke="#C62828" stroke-width="2" stroke-dasharray="7 4" marker-end="url(#ahf)"/>
+  <!-- Learning to Capability -->
+  <path d="M 650 402 Q 640 320, 690 240" fill="none" stroke="#C62828" stroke-width="2" stroke-dasharray="7 4" marker-end="url(#ahf)"/>
+  <!-- Capability to Cloud -->
+  <path d="M 690 233 Q 520 345, 410 395" fill="none" stroke="#C62828" stroke-width="2" stroke-dasharray="7 4" marker-end="url(#ahf)"/>
+  <!-- Revenue to Learning -->
+  <path d="M 195 220 Q 400 330, 588 418" fill="none" stroke="#C62828" stroke-width="2" stroke-dasharray="7 4" marker-end="url(#ahf)"/>
+
+  <!-- ====== NODES (on top) ====== -->
+  <rect x="375" y="42" width="150" height="46" rx="12" fill="#E3F2FD" stroke="#1565C0" stroke-width="2.5"/>
+  <text x="450" y="70" text-anchor="middle" font-family="Hiragino Kaku Gothic ProN, Noto Sans JP, sans-serif" font-size="22" font-weight="bold" fill="#0D47A1">&#x6295;&#x8CC7;</text>
+
+  <rect x="685" y="187" width="150" height="46" rx="12" fill="#E3F2FD" stroke="#1565C0" stroke-width="2.5"/>
+  <text x="760" y="215" text-anchor="middle" font-family="Hiragino Kaku Gothic ProN, Noto Sans JP, sans-serif" font-size="22" font-weight="bold" fill="#0D47A1">&#x80FD;&#x529B;&#x69CB;&#x7BC9;</text>
+
+  <rect x="605" y="407" width="150" height="46" rx="12" fill="#E3F2FD" stroke="#1565C0" stroke-width="2.5"/>
+  <text x="680" y="435" text-anchor="middle" font-family="Hiragino Kaku Gothic ProN, Noto Sans JP, sans-serif" font-size="22" font-weight="bold" fill="#0D47A1">&#x7D44;&#x7E54;&#x5B66;&#x7FD2;</text>
+
+  <rect x="45" y="187" width="150" height="46" rx="12" fill="#E3F2FD" stroke="#1565C0" stroke-width="2.5"/>
+  <text x="120" y="215" text-anchor="middle" font-family="Hiragino Kaku Gothic ProN, Noto Sans JP, sans-serif" font-size="22" font-weight="bold" fill="#0D47A1">&#x58F2;&#x4E0A;</text>
+
+  <!-- Reinforcing loop label -->
+  <circle cx="450" cy="300" r="28" fill="white" stroke="#1565C0" stroke-width="2"/>
+  <text x="450" y="305" text-anchor="middle" font-family="sans-serif" font-size="26" font-weight="bold" fill="#1565C0">R</text>
+
+  <!-- ====== LEGEND ====== -->
+  <line x1="50" y1="635" x2="90" y2="635" stroke="#37474F" stroke-width="2.5" marker-end="url(#ah)"/>
+  <text x="100" y="640" font-family="Hiragino Kaku Gothic ProN, Noto Sans JP, sans-serif" font-size="12" fill="#616161">&#x4E3B;&#x7D4C;&#x8DEF;&#xFF08;&#x2016; = &#x9045;&#x5EF6;&#xFF09;</text>
+  <line x1="300" y1="635" x2="340" y2="635" stroke="#C62828" stroke-width="2" stroke-dasharray="7 4" marker-end="url(#ahf)"/>
+  <text x="350" y="640" font-family="Hiragino Kaku Gothic ProN, Noto Sans JP, sans-serif" font-size="12" fill="#616161">&#x76F8;&#x4E92;&#x5F71;&#x97FF;</text>
+  <line x1="460" y1="635" x2="500" y2="635" stroke="#5D4037" stroke-width="2" marker-end="url(#ahm)"/>
+  <text x="510" y="640" font-family="Hiragino Kaku Gothic ProN, Noto Sans JP, sans-serif" font-size="12" fill="#616161">&#x8907;&#x96D1;&#x306A;&#x56E0;&#x679C;&#xFF08;+/&#x2013;/? &#x6DF7;&#x5728;&#xFF09;</text>
+  <ellipse cx="60" cy="660" rx="15" ry="8" fill="#FFF8E1" stroke="#E65100" stroke-width="1" stroke-dasharray="3 2"/>
+  <text x="85" y="665" font-family="Hiragino Kaku Gothic ProN, Noto Sans JP, sans-serif" font-size="12" fill="#616161">&#x7121;&#x6570;&#x306E;&#x5909;&#x6570;&#x304C;&#x76F8;&#x4E92;&#x4F5C;&#x7528;&#x3059;&#x308B;&#x9818;&#x57DF;</text>
+</svg>

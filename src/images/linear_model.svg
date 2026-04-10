@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 520" width="250" height="520">
+  <defs>
+    <marker id="ah" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#37474F"/>
+    </marker>
+  </defs>
+
+  <!-- Vertical dashed guideline -->
+  <line x1="125" y1="25" x2="125" y2="495" stroke="#B0BEC5" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- Arrows (downward) -->
+  <line x1="125" y1="83" x2="125" y2="167" stroke="#37474F" stroke-width="3" marker-end="url(#ah)"/>
+  <line x1="125" y1="223" x2="125" y2="307" stroke="#37474F" stroke-width="3" marker-end="url(#ah)"/>
+  <line x1="125" y1="363" x2="125" y2="447" stroke="#37474F" stroke-width="3" marker-end="url(#ah)"/>
+
+  <!-- Nodes -->
+  <rect x="55" y="37" width="140" height="46" rx="12" fill="#E3F2FD" stroke="#1565C0" stroke-width="2.5"/>
+  <text x="125" y="65" text-anchor="middle" font-family="Hiragino Kaku Gothic ProN, Noto Sans JP, sans-serif" font-size="22" font-weight="bold" fill="#0D47A1">&#x6295;&#x8CC7;</text>
+
+  <rect x="55" y="177" width="140" height="46" rx="12" fill="#E3F2FD" stroke="#1565C0" stroke-width="2.5"/>
+  <text x="125" y="205" text-anchor="middle" font-family="Hiragino Kaku Gothic ProN, Noto Sans JP, sans-serif" font-size="22" font-weight="bold" fill="#0D47A1">&#x6A5F;&#x80FD;&#x958B;&#x767A;</text>
+
+  <rect x="55" y="317" width="140" height="46" rx="12" fill="#E3F2FD" stroke="#1565C0" stroke-width="2.5"/>
+  <text x="125" y="345" text-anchor="middle" font-family="Hiragino Kaku Gothic ProN, Noto Sans JP, sans-serif" font-size="22" font-weight="bold" fill="#0D47A1">&#x58F2;&#x4E0A;</text>
+
+  <rect x="55" y="457" width="140" height="46" rx="12" fill="#E3F2FD" stroke="#1565C0" stroke-width="2.5"/>
+  <text x="125" y="485" text-anchor="middle" font-family="Hiragino Kaku Gothic ProN, Noto Sans JP, sans-serif" font-size="22" font-weight="bold" fill="#0D47A1">&#x5229;&#x76CA;</text>
+</svg>
