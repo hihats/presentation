@@ -107,7 +107,7 @@
   <line x1="50" y1="635" x2="90" y2="635" stroke="#37474F" stroke-width="2.5" marker-end="url(#ah)"/>
   <text x="100" y="640" font-family="Hiragino Kaku Gothic ProN, Noto Sans JP, sans-serif" font-size="12" fill="#616161">&#x4E3B;&#x7D4C;&#x8DEF;&#xFF08;&#x2016; = &#x9045;&#x5EF6;&#xFF09;</text>
   <line x1="300" y1="635" x2="340" y2="635" stroke="#C62828" stroke-width="2" stroke-dasharray="7 4" marker-end="url(#ahf)"/>
-  <text x="350" y="640" font-family="Hiragino Kaku Gothic ProN, Noto Sans JP, sans-serif" font-size="12" fill="#616161">&#x76F8;&#x4E92;&#x5F71;&#x97FF;</text>
+  <text x="350" y="640" font-family="Hiragino Kaku Gothic ProN, Noto Sans JP, sans-serif" font-size="12" fill="#616161">&#x30D5;&#x30A3;&#x30FC;&#x30C9;&#x30D0;&#x30C3;&#x30AF;</text>
   <line x1="460" y1="635" x2="500" y2="635" stroke="#5D4037" stroke-width="2" marker-end="url(#ahm)"/>
   <text x="510" y="640" font-family="Hiragino Kaku Gothic ProN, Noto Sans JP, sans-serif" font-size="12" fill="#616161">&#x8907;&#x96D1;&#x306A;&#x56E0;&#x679C;&#xFF08;+/&#x2013;/? &#x6DF7;&#x5728;&#xFF09;</text>
   <ellipse cx="60" cy="660" rx="15" ry="8" fill="#FFF8E1" stroke="#E65100" stroke-width="1" stroke-dasharray="3 2"/>
