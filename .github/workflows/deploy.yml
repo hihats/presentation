@@ -8,6 +8,7 @@ on:
     paths:
       - "src/**"
       - "themes/**"
+      - "scripts/**"
       - ".github/workflows/deploy.yml"
 
 env:
@@ -30,11 +31,9 @@ jobs:
       # Convert Marp slides to HTML and generate PDF and OGP images
       - name: Build slides
         run: pnpm run build
-      # Generate an index page for accessing each slide
-      - name: Generate directory listing
-        uses: yKicchan/generate-directory-listing-action@v1
-        with:
-          target: dist
+      # Generate a card-style index page for accessing each slide
+      - name: Generate index page
+        run: node scripts/generate-index.mjs dist
       - name: Upload artifacts
         uses: actions/upload-pages-artifact@v3
         with:
