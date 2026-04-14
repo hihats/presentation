@@ -5,7 +5,7 @@ paginate: true
 title: 還元主義がベースにあったエンジニアに求められる転換
 header: "#システム思考の世界へ"
 description: 還元主義がベースにあったエンジニアが、分解できない問題にどう向き合うか
-image: images/product_profit_hero.jpg
+image: https://hihats.github.io/presentation/images/product_profit_hero.png
 keywords:
 transition: cover
 headingDivider: 2
