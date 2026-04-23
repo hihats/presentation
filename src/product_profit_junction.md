@@ -5,7 +5,7 @@ paginate: true
 title: エンジニアの基本的思考原理にある還元主義アプローチが適用できない世界
 header: "#yokohamanorth"
 description: 還元主義がベースにあったエンジニアが、分解できない問題にどう向き合うか
-image: https://hihats.github.io/presentation/images/product_profit_hero.png
+image: https://hihats.github.io/presentation/images/noreductionismtoengineers.png
 keywords:
 transition: cover
 headingDivider: 2
@@ -28,9 +28,9 @@ headingDivider: 2
 
 ## 自己紹介:
 name: @hihats
-address: 港北区大倉山
+address: 港北区
 yokohamanorth: 3回目
-job_description: ソフトウェアエンジニアのIC（クラウドソーシングマッチングプラットフォームの開発責任者でした）
+job_description: ソフトウェアエンジニアのIC
 
 ## 還元主義とは
 
@@ -88,7 +88,7 @@ job_description: ソフトウェアエンジニアのIC（クラウドソーシ�
 
 ## ここまでは割と誰でも気づく
 
-## 構造の裏側はこうなっていた
+## 思考のもっと奥の方はこうなっていた
 - 局所最適がだめだと頭では分かっていても、実際には問題を分解して解決するという局所最適の罠にはまっていた
 - そしてこれはエンジニアが得意としていて、かつ思考の習慣と化していた **「Divide and Conquer」というアプローチ——≒還元主義** の限界を示していた
 - この限界を理解しないまま開発と事業貢献を結びつけようとすると、問題はどんどん悪くなる
@@ -178,5 +178,6 @@ job_description: ソフトウェアエンジニアのIC（クラウドソーシ�
 - 定番文献：Sterman『Business Dynamics』Chapter 6-7（機械的手順の核心）、Meadows『Thinking in Systems』第1章（入門）
 - スライド既引用のMontalion/Senge/Meadowsのうち、ストック特定を直接扱うのはMeadowsのみ
 
-## その他参考文献
-![bg right:33%](images/picture_large978-4-8144-0156-7.jpeg)
+## 参考文献
+![bg right:75%](images/picture_large978-4-8144-0156-7.jpeg)
+![bg right:75%](images/thinking_systems.png)
