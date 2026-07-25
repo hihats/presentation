@@ -9,8 +9,8 @@
  * - 外部依存なし (Node.js 標準モジュールのみ)
  */
 
-import { readdirSync, readFileSync, writeFileSync } from "node:fs";
-import { join, basename, extname } from "node:path";
+import { readdirSync, readFileSync, writeFileSync, existsSync } from "node:fs";
+import { join, dirname, basename, extname, relative } from "node:path";
 
 // ---------------------------------------------------------------------------
 // Config
@@ -18,6 +18,8 @@ import { join, basename, extname } from "node:path";
 
 const DIST_DIR = process.argv[2] || "dist";
 const SITE_TITLE = "@hihats presentations";
+// dist/ 直下でこの名前のディレクトリは一覧から除外する（テンプレ紹介用の demo/ など）
+const EXCLUDE_DIRS = new Set(["demo"]);
 
 // ---------------------------------------------------------------------------
 // Helpers
@@ -47,29 +49,50 @@ function escapeHtml(str) {
     .replace(/"/g, "&quot;");
 }
 
+/** dir 以下を再帰的に走査し、.md ファイルの DIST_DIR 相対パスを集める */
+function collectMarkdownFiles(dir, root) {
+  const entries = readdirSync(dir, { withFileTypes: true });
+  let results = [];
+
+  for (const entry of entries) {
+    const fullPath = join(dir, entry.name);
+    const relPath = relative(root, fullPath);
+
+    if (entry.isDirectory()) {
+      if (EXCLUDE_DIRS.has(relPath)) continue;
+      results = results.concat(collectMarkdownFiles(fullPath, root));
+    } else if (extname(entry.name) === ".md") {
+      results.push(relPath);
+    }
+  }
+
+  return results;
+}
+
 // ---------------------------------------------------------------------------
 // Main
 // ---------------------------------------------------------------------------
 
-const files = readdirSync(DIST_DIR);
-
-// .md ファイルを収集 (demo/ 配下は除外)
-const slides = files
-  .filter((f) => extname(f) === ".md")
+// .md ファイルを再帰的に収集（フラット配置・ディレクトリ+index.md 配置の両方に対応）
+const slides = collectMarkdownFiles(DIST_DIR, DIST_DIR)
   .map((mdFile) => {
-    const stem = basename(mdFile, ".md");
+    // "DXHistory.md" -> "DXHistory" / "demo/index.md" -> "demo/index"
+    const base =
+      dirname(mdFile) === "."
+        ? basename(mdFile, ".md")
+        : join(dirname(mdFile), basename(mdFile, ".md"));
     const mdPath = join(DIST_DIR, mdFile);
     const content = readFileSync(mdPath, "utf-8");
     const fm = parseFrontmatter(content);
 
-    const htmlFile = `${stem}.html`;
-    const pngFile = `${stem}.png`;
-    const hasHtml = files.includes(htmlFile);
-    const hasPng = files.includes(pngFile);
+    const htmlFile = `${base}.html`;
+    const pngFile = `${base}.png`;
+    const hasHtml = existsSync(join(DIST_DIR, htmlFile));
+    const hasPng = existsSync(join(DIST_DIR, pngFile));
 
     return {
-      stem,
-      title: fm.title || stem,
+      stem: base,
+      title: fm.title || base,
       description: fm.description || "",
       htmlFile: hasHtml ? htmlFile : null,
       pngFile: hasPng ? pngFile : null,
