@@ -49,6 +49,9 @@ Markdown 拡張構文や CSS ユーティリティクラスを使って、あな
 > [!tip]
 > Node.js は [nodenv](https://github.com/nodenv/nodenv) 等のバージョンマネージャを使ったインストールを推奨します。
 
+> [!warning]
+> Node.js 25.7 以降(執筆時点の v26.x を含む)には、Marp CLI が依存する `yargs` を壊す既知の回帰バグがあり、`pnpm dev`/`pnpm build` が `ReferenceError: require is not defined in ES module scope` でクラッシュします([nodejs/node#61971](https://github.com/nodejs/node/issues/61971))。上記のバージョンが使われているか確認してください。
+
 ## 🎉 使い方
 
 ### 0. リポジトリの作成
