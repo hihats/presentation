@@ -49,6 +49,9 @@ Feel free to customize them to suit your preferences!
 > [!tip]
 > It is recommended to install Node.js using a version manager such as [nodenv](https://github.com/nodenv/nodenv).
 
+> [!warning]
+> Node.js 25.7+ (including v26.x as of this writing) has a known upstream regression that breaks `yargs`, a dependency of Marp CLI, causing `pnpm dev`/`pnpm build` to crash with `ReferenceError: require is not defined in ES module scope` ([nodejs/node#61971](https://github.com/nodejs/node/issues/61971)). Make sure your active Node.js version matches the one above.
+
 ## 🎉 Getting Started
 
 ### 0. Create a repository from the template
