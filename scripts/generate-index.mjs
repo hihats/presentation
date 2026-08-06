@@ -173,6 +173,7 @@ const html = `<!DOCTYPE html>
       margin: 1.5rem auto 3rem;
       padding: 0 1.5rem;
       flex: 1;
+      align-content: start;
     }
 
     .card {
