@@ -14,11 +14,17 @@ section.nolead h4 {
     vertical-align: middle;
     color: transparent;
 }  
-section.caption > h2, 
+/* セクション扉（暗背景用）: 暗い背景画像とセットで使う。白文字のため背景画像は必須 */
+section.caption > h2,
 section.caption > p {
     text-align: center;
     color: white;
-}  
+}
+/* セクション扉（明背景用）: 背景画像なし・テーマ既定の文字色で使う */
+section.caption-light > h2,
+section.caption-light > p {
+    text-align: center;
+}
 h1 {
     border-bottom: none;
     position: absolute;

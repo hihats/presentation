@@ -109,6 +109,8 @@
 
 /* code block filename */
 code[name] {
+  /* marp-core v4のmarp-preラッパー内でcodeがインライン化しmargin-topが効かなくなったためblock指定 */
+  display: block;
   position: relative;
   margin-top: 44px;
   padding-top: 4px;
@@ -126,11 +128,12 @@ code[name]::before {
 }
 
 /* alert */
-.note,
-.tip,
-.important,
-.warning,
-.caution {
+/* :not(.token) — Prismのシンタックストークン（.token.important等）への誤適用を防ぐ */
+.note:not(.token),
+.tip:not(.token),
+.important:not(.token),
+.warning:not(.token),
+.caution:not(.token) {
   --padding-x: 1.25em;
   --padding-y: .75em;
 
@@ -171,6 +174,11 @@ code[name]::before {
 .caution::before {
   display: block;
   padding-left: 1em;
+}
+/* コードブロック内のPrismトークンにアラートのラベル・アイコンを注入しない */
+marp-pre .token::before,
+marp-pre .token::after {
+  content: none;
 }
 .note::after,
 .tip::after,
