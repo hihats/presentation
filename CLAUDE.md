@@ -17,6 +17,16 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ### Setup
 - `scripts/init` - Initialize repository settings (GitHub user ID, repo name)
 
+## Slide Authoring Workflow
+
+When creating or editing slides, ALWAYS follow this order:
+
+1. Read `docs/style-guide.md` (visual rules: colors, typography, layout) and `docs/writing-guide.md` (writing rules: anti-AI-cliché patterns, message-first workflow)
+2. Pick a layout from `template/patterns.md` — working examples of every approved layout pattern (preview with `pnpm dev:tmp`)
+3. After creating or substantially editing a deck, run both check skills: `slide-writing-check` (inspects the Markdown source for AI-sounding text) and `slide-layout-check` (renders all slides to PNG and visually inspects them)
+
+Note: `src/demo/` is a template-derived sample deck, not real usage — do not treat it as a reference for how slides should be written.
+
 ## Architecture
 
 This is a Marp presentation framework with custom extensions:
