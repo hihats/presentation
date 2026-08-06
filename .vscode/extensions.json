@@ -1,6 +1,9 @@
 {
   "recommendations": [
-    "marp-team.marp-vscode",
-    "yzhang.markdown-all-in-one"
+    "marp-team.marp-vscode"
+  ],
+  "unwantedRecommendations": [
+    "yzhang.markdown-all-in-one",
+    "esbenp.prettier-vscode"
   ]
 }

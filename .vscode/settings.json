@@ -5,4 +5,33 @@
     "themes/utility.css"
   ],
   "markdown.marp.html": "default",
+
+  // 壊れたバッファがフォーカス移動だけでディスクに書かれないようにする
+  "files.autoSave": "off",
+
+  "editor.formatOnSave": false,
+  "[markdown]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+    "editor.defaultFormatter": null,
+    "editor.codeActionsOnSave": {},
+    "editor.detectIndentation": false,
+    "editor.inlineSuggest.enabled": false,
+    "editor.quickSuggestions": {
+      "other": false,
+      "comments": false,
+      "strings": false
+    }
+  },
+
+  "cursor.cpp.disabledLanguages": [
+    "plaintext",
+    "markdown"
+  ],
+  "cursor.inlineSuggest.enabled": false,
+
+  "markdown.extension.tableFormatter.enabled": false,
+  "markdown.extension.toc.updateOnSave": false,
+  "markdown.extension.orderedList.autoRenumber": false
 }
