@@ -5,7 +5,7 @@ paginate: true
 title: 分割統治できない世界の歩き方 — エンジニアのための、システム思考が必要になる境界線
 header: ""
 description: 還元主義をベースに育ったエンジニアが、分解では解けない領域とどう向き合うか — 氷山モデルに沿って、5つの還元、3つのシステム原型、共にモデリングする3層、そして地形を知ることへ潜っていく
-image: https://hihats.github.io/presentation/beyond_divide_and_conquer/index.png
+image: https://slides.hihats.pro/beyond_divide_and_conquer/index.png
 keywords: システム思考, 還元主義, 氷山モデル, 因果ループ図, WardleyMap, ソシオテクニカル
 transition: cover
 headingDivider: 2

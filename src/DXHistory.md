@@ -2,7 +2,7 @@
 marp: true
 theme: hihats
 paginate: true
-image: https://hihats.github.io/presentation/DXHistory/index.png
+image: https://slides.hihats.pro/DXHistory/index.png
 title: デジタル技術による職業変容の勃興〜DX
 description:
 keywords:

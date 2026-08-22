@@ -5,7 +5,7 @@ paginate: true
 title: エンジニアの基本的思考原理にある還元主義アプローチが適用できない世界
 header: "#yokohamanorth"
 description: 還元主義がベースにあったエンジニアが、分解できない問題にどう向き合うか
-image: https://hihats.github.io/presentation/images/noreductionismtoengineers.png
+image: https://slides.hihats.pro/images/noreductionismtoengineers.png
 keywords:
 transition: cover
 headingDivider: 2

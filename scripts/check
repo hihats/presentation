@@ -6,7 +6,7 @@
 set -e
 
 # Variables
-BASE_URL="https://hihats.github.io/presentation"
+BASE_URL="https://slides.hihats.pro"
 SRC_DIR="src"
 SLIDE_FILENAME="index.md"
 OGP_FILENAME="index.png"

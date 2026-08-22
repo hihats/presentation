@@ -2,7 +2,7 @@
 marp: true
 theme: hihats
 paginate: true
-image: https://hihats.github.io/presentation/demo/index.png
+image: https://slides.hihats.pro/demo/index.png
 title:
 description:
 keywords:

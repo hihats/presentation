@@ -5,7 +5,7 @@ paginate: true
 title: 「AIはソフトウェアエンジニアをリプレイスするか」論争にそろそろ終止符を打ちたい
 header: "#yokohamanorth"
 description: 「AIはソフトウェアエンジニアの仕事を奪う」といった主張は後を絶たないが、そういった主張には辟易としている
-image: https://hihats.github.io/presentation/images/ai_replace_engineers_hero.png
+image: https://slides.hihats.pro/images/ai_replace_engineers_hero.png
 keywords:
 transition: cover
 headingDivider: 2

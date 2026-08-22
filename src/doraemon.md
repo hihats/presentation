@@ -5,7 +5,7 @@ paginate: true
 title: エンジニアリングポリシーを作ったらドラえもんになった話
 header: "#yokohamanorth"
 description: 組織でエンジニアリングポリシーを作ることになり、その苦労話から思わぬ展開になった話。転生ネタではない。
-image: https://hihats.github.io/presentation/images/policy_to_doraemon-min.png?v=2
+image: https://slides.hihats.pro/images/policy_to_doraemon-min.png?v=2
 keywords:
 transition: cover
 headingDivider: 2
@@ -13,7 +13,7 @@ headingDivider: 2
 
 <!-- _class: nolead -->
 # エンジニアリングポリシーを作ったらドラえもaんになった話
-![bg fit](https://hihats.github.io/presentation/images/policy_to_doraemon.png)
+![bg fit](https://slides.hihats.pro/images/policy_to_doraemon.png)
 
 ## Index
 1. 自己紹介
@@ -99,7 +99,7 @@ job_description: クラウドソーシングマッチングプラットフォー
 # Appendix
 ---
 今回作ったエンジニアリングポリシーも公開しているのでよかったらどうぞ
-https://hihats.github.io/presentation/engineering_policy.html
+https://slides.hihats.pro/engineering_policy.html
 
 
 ## エンジニアリングそのもの
