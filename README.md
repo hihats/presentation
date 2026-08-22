@@ -8,13 +8,13 @@ This repository is a template repository that allows you to create slides utiliz
 
 ## 🚀 Features
 
-- 🚀 Automatic deployment to [GitHubPages](https://hihats.github.io/presentation/) via [GitHubActions](./.github/workflows/deploy.yml)
+- 🚀 Automatic deployment to [GitHubPages](https://slides.hihats.pro/) via [GitHubActions](./.github/workflows/deploy.yml)
 - 🖼️ Support for setting OGP images for the title slide
 - 🚄 Lightweight slide creation using Markdown extended syntax
 - 🎨 Diverse slide expressions with CSS utility classes
 - 🔧 A script to easily create new slides from the template
 
-For demo slides using this repository, please refer to [GitHubPages](https://hihats.github.io/presentation/demo).  
+For demo slides using this repository, please refer to [GitHubPages](https://slides.hihats.pro/demo).  
 Build your own original slide environment using Markdown extended syntax and CSS utility classes!
 
 ## 📂 Directory Structure
@@ -162,7 +162,7 @@ Please refer to the official documentation for each plugin.
 ## ✨The Ultimate Marp Slide Creation Technique ✨
 
 Finally, let me introduce the ultimate combination of Markdown extended syntax and custom themes, which is the essence of this repository 💪  
-You can check the actual display in the [demo slides](https://hihats.github.io/presentation/demo).
+You can check the actual display in the [demo slides](https://slides.hihats.pro/demo).
 
 ### Assigning CSS Classes with `{.class}`
 
