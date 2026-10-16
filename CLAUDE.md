@@ -66,7 +66,7 @@ The engine.mjs file extends Marp with these markdown-it plugins:
 
 ## Development Notes
 - Uses pnpm as package manager
-- Requires Node.js 20.18.0+
+- Requires Node.js 22+
 - VSCode Marp extension features are limited due to custom engine
 - Language setting: Japanese (configured in .marprc.yml)
 - Theme: Custom based on Marp's gaia theme
