@@ -43,7 +43,7 @@ Feel free to customize them to suit your preferences!
 
 | Tools                          | version |
 |--------------------------------|---------|
-| [Node.js](https://nodejs.org/) | 20.18.0 |
+| [Node.js](https://nodejs.org/) | 22      |
 | [pnpm](https://pnpm.io/)       | 9.15.1  |
 
 > [!tip]
