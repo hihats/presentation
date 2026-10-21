@@ -15,6 +15,7 @@ section.nolead h4 {
     color: transparent;
 }  
 /* セクション扉（暗背景用）: 暗い背景画像とセットで使う。白文字のため背景画像は必須 */
+section.caption > h1,
 section.caption > h2,
 section.caption > p {
     text-align: center;
@@ -24,6 +25,17 @@ section.caption > p {
 section.caption-light > h2,
 section.caption-light > p {
     text-align: center;
+}
+/* 見出しにインパクトが要らないスライド（インデックス・参考文献など）: h2をヘッダー位置（左上）に小さく置き、本文を上から流す */
+section.minor {
+    justify-content: flex-start;
+}
+section.minor > h2 {
+    position: absolute;
+    top: 21px;
+    left: 30px;
+    margin: 0;
+    font-size: .95em;
 }
 h1 {
     border-bottom: none;
@@ -70,3 +82,22 @@ section > ol > li > strong {
     color: #14145a;
 }
 
+/* 表: 既定だと文字が大きく上下が詰まって見えるため、文字を一段小さくしてセルの余白を広げる */
+section table {
+    font-size: .8em;
+}
+section table th,
+section table td {
+    padding: .65em .9em;
+}
+
+/* 出典: スライドの最下部に小さく置く。段落の末尾に ` {.source}` と書く（波括弧の前に半角スペース） */
+section p.source {
+    position: absolute;
+    left: 78.5px;
+    right: 78.5px;
+    bottom: 21px;
+    margin: 0;
+    font-size: .5em;
+    color: #555;
+}
