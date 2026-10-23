@@ -2,7 +2,7 @@
 marp: true
 theme: hihats
 paginate: true
-title: コミュニティは知識を創出する場である — 可能性のリミッターを取り外す鍵
+title: コミュニティは知識を創出する場である — システム思考で詳説する場の構造
 header: ""
 description: コミュニティの存在意義は、知識の「共有」ではなく「創出」にある。カンファレンスの変容をきっかけに、私たちがなぜ仕事の外でまで学ぼうとするのかを問い直し、持ち寄りが創発を生み局所最適の罠を破る構造を、DevOpsDaysとEvent Stormingの分解、システム思考、10分のミニワーク、歴史の事例でたどる
 image: https://slides.hihats.pro/community_creates_knowledge/index.png
@@ -26,7 +26,7 @@ headingDivider: 2
 
 # コミュニティは知識を創出する場である
 
-可能性のリミッターを取り外す鍵
+システム思考で詳説する場の構造
 
 <style scoped>section > p { margin-top: 5em; }</style>
 
@@ -197,11 +197,11 @@ TODO(hihats): 自分がかつて勉強会に通っていた理由を一言（当
 ## ちょっと閑話休題
 ## 私の話
 
-ここ数年、*システム思考*に傾倒している
+ここ数年、*システム思考*を学んでいる
 
-理系として身につけてきた「分割統治」だけでは、目の前の複雑な課題は解けない。それを学んできた数年だった
+ソフトウェアエンジニアとして身につけてきた「分割統治」だけでは、目の前の複雑な課題は解けない。それを学んできた数年だった
 
-前回の登壇: [分割統治できない世界の歩き方](https://slides.hihats.pro/beyond_divide_and_conquer)
+大吉祥寺.pmでの登壇: [分割統治できない世界の歩き方](https://slides.hihats.pro/beyond_divide_and_conquer)
 
 * 根っこにあるのは、ソフトウェアをつくる仕事に見ている「**世界を理解することで、価値を提供できる**」という夢だと思う
 
