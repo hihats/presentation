@@ -37,6 +37,8 @@ headingDivider: 2
 
 ## 自己紹介
 
+![bg right:26% fit](images/slido_qr.png)
+
 - name: @hihats （塚本 久博）
 - job: ソフトウェアエンジニア（IC）、過去は開発責任者・EM・技術顧問など
 - address: #yokohamanorth
@@ -46,6 +48,7 @@ headingDivider: 2
 TODO(hihats): スクラム祭り・地域コミュニティとの個人的な接点があれば1行足す（例: どのコミュニティ育ちか）
  大学の講義で90分
 マーク・アンドリーセンについて聞いて、聴衆の解像度
+自己紹介をしている間に QR を読み取ってもらう。Slido #3960505（https://qr.sli.do/gNMQFrAFgKgjENR2R8QnNA）の1問目「マーク・アンドリーセンを知っていますか？」（アンドリーセン・ホロウィッツの創業者／Mosaic / Netscape（Webブラウザ）の人／Software is Eating the Worldの人／「テクノ楽観主義宣言（Techno-Optimist Manifesto）」の人／その他／知らない）で、聴衆の解像度をつかむ
 -->
 
 ## 今日の主張（結論から）
@@ -194,6 +197,18 @@ TODO(hihats): この夢・衝動を自覚した場面を一言
 - 口頭で拾う（スライドからは外した）: 当時は質問し、懇親会に出て、ブログで感想を返すなど、受け取るだけでなく「返す」のが流儀だった。gihyo.jp「今こそ！勉強会」第1回（2008） https://gihyo.jp/lifestyle/feature/01/study-meeting/0001 。動機ではなく場の作法なので4項目からは外した
 前のスライドの「仕事だけでは実現できない何かがある」を、当時の人たちの言葉で裏付ける位置づけ。口頭で添える「返す」の流儀は、後の「物足りなさ」「ぶつけ方」のスライドへの伏線
 TODO(hihats): 自分がかつて勉強会に通っていた理由を一言（当てはまる行を指しながら）
+会場アンケート: Slido #3960505（https://qr.sli.do/gNMQFrAFgKgjENR2R8QnNA）。「あなたが勉強会やコミュニティに通う理由に近いのは？」4項目＋その他。次の Slido のスライド（QR だけの1枚）で Start poll し、結果を見せて当てはまる行を拾う
+-->
+
+## Slido
+<!-- _class: nolead -->
+<!-- _paginate: false -->
+
+![bg fit](images/slido_qr.png)
+
+<!--
+Slido の QR だけを1枚で出すスライド。後の問いかけでも使い回す（このスライドを複製して置く）
+直前のスライドの4項目は Slido の2問目「あなたが勉強会やコミュニティに通う理由に近いのは？」。ここで Start poll し、結果を見せて当てはまる行を拾う
 -->
 
 ## ちょっと閑話休題
@@ -357,40 +372,137 @@ TODO(画像): images/emergence_mix.png — 持ち寄り→混合→創発の概�
 2つの実例は役割が違う: DevOpsDays は「どう起こすか（場）」、Event Storming は「何が生まれたか（成果）」
 -->
 
-## 実例1: DevOpsDays の Open Space
+## 実例1: DevOpsDays — 「DevOps」が生まれた場
+<!-- _class: minor -->
 
-午後の時間は講演ではなく、**参加者がその場でテーマを立てて**少人数で議論する
+2009年、ベルギーのゲントで最初の DevOpsDays が開かれた。参加者は60人ほどの、草の根の集まり
 
-- アジェンダは主催者ではなく参加者が作る（発案者がいるだけで成立）
-- 「二本足の法則」— 学べも貢献もできていないなら、歩いて別の輪へ移ってよい
-- 肩書もチームも違う人が、同じ問いのまわりに集まる
-- 議論の結論より、**その場で出た問い**が持ち帰られる
+- きっかけは、Velocity での Flickr の講演「10+ Deploys per Day」を配信で見た Patrick Debois が、SNS で声をかけられて自分で開いたこと
+- 開発と運用の溝に悩んでいた人たちが、勘を頼りに集まった
 
-![bg right:40% fit](images/open_space.png)
+> Many people came on a hunch and all of a sudden they didn't feel alone anymore
+> — Patrick Debois
+
+* 「DevOps」という言葉は、このコミュニティの集まりとともに広まっていった
+
+出典: [InfoQ（2014）](https://www.infoq.com/news/2014/12/5-years-devops-days-qa/)、[DevOps.com](https://devops.com/the-origins-of-devops-whats-in-a-name/) {.source}
 
 <!--
-TODO(画像): images/open_space.png — Open Spaceのマーケットプレイス（付箋のセッション表）写真か図
+[13-14] 実例1の1枚目。DevOpsDays そのものが、知識（DevOps という考え方と言葉）を生んだコミュニティであることを先に見せる
+- 最初の開催は2009年ゲント。Kris Buytaert の言葉で「60 something people in Gent」から始まった草の根の動き（InfoQ 2014）
+- Patrick Debois「we just knew there was much to talk about and decided to run a conference」「Many people came on a hunch and all of a sudden they didn't feel alone anymore」（InfoQ 2014）
+- きっかけは O'Reilly Velocity 2009 の John Allspaw / Paul Hammond「10+ Deploys per Day: Dev and Ops Cooperation at Flickr」。Debois は配信で見て、SNS で促されて Devopsdays を立ち上げた（DevOps.com）
+- 「DevOps という言葉を誰が作ったか」までは出典で確認できていない。「このイベントとともに広まった」の言い方にとどめる
 TODO(hihats): 実際にDevOpsDaysのOpen Spaceで体験したことを1つ口頭で（CfPの原体験ポスト参照）
-[13-15]
 -->
 
-## 実例2: Event Storming
+## 実例1: DevOpsDays — 共有と創出を1日に組み込む
+<!-- _class: minor -->
 
-発案は Brandolini 一人。手法として育てたのは**DDDコミュニティ**
+多くの DevOpsDays は、*選ばれた講演*と*参加者が自分たちで組み立てる対話*（Open Space）を1日の中に組み合わせる
 
-- 2013年にブログで公開。各地の実践者が自分の現場で試し、変種を「レシピ」として持ち寄った
-- 原典『Introducing EventStorming』は、いまも Leanpub で書き続けられている
+![w:1150](images/devopsdays_day.png)
 
-完成品ではなく、**持ち寄りで更新され続ける知識**
+* 講演で受け取ったものを、同じ日の午後には持ち寄る側に回れる。**カンファレンスの形の中に、創出の時間が設計されている**
 
-![bg right:40% fit](images/event_storming.png)
+出典: [Devopsdays - openspace concept](https://devopsdays.org/open-space-format/)、[devopsdays NYC 2020 Program](https://devopsdays.org/events/2020-new-york-city/program/) {.source}
 
 <!--
-TODO(画像): images/event_storming.png — 付箋の写真より「ツアー→ブログ→各地の実践→レシピ→書籍改訂」の年表図の方が主張に合う
-TODO(hihats): 事実関係を一次情報で確認する（eventstorming.com、ブログ ziobrando.blogspot.com/2013/11/introducing-event-storming.html、書籍のまえがき）。現状の根拠は Wikipedia と検索結果のみ
+[14-15] DevOpsDays の独自性はここ。Open Space の手法そのものは OST のままで、独自なのは「講演と Open Space を同じ日に組み合わせた構成」
+- 公式の説明: 「Most devopsdays events combine curated talks and self organized conversations」（openspace concept）
+- 図は devopsdays NYC 2020 の実際のプログラム。両日とも 午前に講演 → Ignite（5分トーク）×5 → 昼前に Open Space の組み立て → 午後に Open Space ×3 枠 → 夕方に講演
+- 元の OST はイベント全体が Open Space で、基調講演も事前のプログラムもない。ここが違い
+- §1 の「カンファレンス＝共有（興行と客）」に対して、カンファレンスの中に創出の時間を組み込める実例、として話す
+- 「講演や Ignite で聞いた話が、午後のテーマの種になる」は運用上よくある流れだが、公式には明記されていない。自分の体験として話すならOK
+TODO(hihats): 講演で聞いた話が午後の Open Space のテーマになった体験があれば一言
+-->
+
+## 実例1: DevOpsDays — Open Space の進め方
+<!-- _class: minor -->
+
+進め方は、ハリソン・オーエンの Open Space Technology（OST）をほぼそのまま使う
+
+- **マーケットプレイス**: 参加者がテーマを紙に書き、時間割の壁に貼って、自分で呼びかける
+- **二本足の法則**: 学べも貢献もできていないなら、歩いて別の輪へ移ってよい
+- **来た人が適任者**: 集まった人で始め、終わるときが終わり
+- **クロージング**: 輪に戻り、一人一言ずつ今日を振り返る
+
+![bg right:38% fit](images/open_space.png)
+
+出典: [Devopsdays - openspace concept](https://devopsdays.org/open-space-format/) {.source}
+
+<!--
+[15-16] 手法は OST のまま。公式ページも「the simplest meeting format that could possibly work」と書いている
+- 流れ: Opening（タイムラインと原則の説明。発案者のテーマ紹介は1〜2分）→ Marketplace of ideas（新しいテーマが出なくなるまで。「are we done?」と聞いて沈黙を待つ）→ Break-out sessions（ファシリテーターは介入しない）→ Closing（輪に戻り、トーキングスティックを回して一言ずつ）
+- 原則: Law of Mobility（「a foot of passion and a foot of responsibility」）と、そこから導かれる4原則（Whoever comes is the right people など）
+- 成果は wiki や紙にまとめ、「book of proceedings」にする
+- 3つの構造条件との対応は後の表で: 異なる環境からの持ち寄り（マーケットプレイス）、混ぜる場（分科会）、少人数（輪が小さい）
+TODO(画像): images/open_space.png — Open Spaceのマーケットプレイス（付箋のセッション表）写真か図
+-->
+
+## 実例2: Event Storming — DDDコミュニティで育った手法
+<!-- _class: minor -->
+
+発案は Alberto Brandolini。ただし手法として形になったのは、各地の実践者が自分の現場で試していった過程の中だった
+
+![w:1150](images/event_storming_timeline.png)
+
+* 原典の書籍『Introducing EventStorming』は、いまも「執筆中」のまま更新が続いている
+
+出典: [Brandolini（2013）](https://ziobrando.blogspot.com/2013/11/introducing-event-storming.html)、[EventStorming.com](https://www.eventstorming.com/book/)、[DDD Crew](https://github.com/ddd-crew/eventstorming-glossary-cheat-sheet) {.source}
+
+<!--
+[16-17] 実例2の1枚目。DevOpsDays は「場の設計」、Event Storming は「コミュニティの中で生まれ、育った知識」という役割分担
+- 2012: Italian Agile Day で「Event-Based modelling」のワークショップとして発表（Brandolini のブログ 2013-11-18）
+- 2013: Vaughn Vernon の IDDD ツアー（ベルギー・ポーランド）でさらに試し、2013年夏に広まる直前に名前が EventStorming になった。その夏、多くの実践者が試し始めた（同ブログ）
+- 2013-11-18: ブログ「Introducing Event Storming」。ブログ自体に「2013年以降、形式は大きく進化し、いくつもの変種がある」という注記がある
+- 2014: Brandolini の講演「Event storming recipes」（CDays14 Milano）。「Different people make a different party」。リモート開催の工夫や EventStormers のコミュニティ（Google+）にも触れている
+- いま: 書籍は Leanpub で「still under active writing」「It's not finished」（eventstorming.com）。DDD Crew が用語集とチートシートを GitHub で公開（CC ライセンス）
+- eventstorming.com は「Collaborative Modelling」ムーブメントの広がりに寄与した、と書いている
 TODO(hihats): 自分が Event Storming を知った・試した経緯があれば一言（どのコミュニティ経由で知ったか）
-[15-18] 手法の中身（付箋でドメインイベントを並べる）は一言で済ませ、経緯に時間を使う
-口頭で補足: 名前が決まったのは Vaughn Vernon の DDD トレーニングツアーで登壇する直前（当初は Event-based modelling）
+-->
+
+## 実例2: Event Storming — どんなワークショップか
+<!-- _class: minor -->
+
+始まりは「正確な UML 図を描く時間がない。代わりにこれをやろう」だった
+
+- **際限のない壁**: 模造紙のロールを貼り、ホワイトボードの大きさに問題を合わせない
+- **オレンジの付箋**: 業務で起きた出来事（ドメインイベント）を、時間の流れに沿って並べる
+- **6〜8人**: 質問する人と、答えを知っている人を混ぜる
+- 数週間かかるモデリングが、数時間で業務の流れ全体に届く
+
+![bg right:38% fit](images/event_storming.png)
+
+出典: [Brandolini（2013）](https://ziobrando.blogspot.com/2013/11/introducing-event-storming.html) {.source}
+
+<!--
+[17-18] 手法の中身は手短に。ブログ原文からの要点
+- 起点: 「Ouch I have no time to draw a precise UML diagram, let's do this instead」
+- 壁: 「Your problem is bigger than your whiteboard, so what?」。紙のロールで無制限のモデリング空間をつくる
+- 付箋: ドメインイベント（過去形の出来事）はオレンジ。コマンドは青、外部システムや時間起点のイベントは紫。そこから集約（アグリゲート）を外側から見つけていく
+- 人数: 6〜8人程度。質問する人と答えを知っている人を混ぜる
+- 効果: 業務フローの包括的なモデルが「in hours instead of weeks」でできる。記法が単純なので、技術者でない人も議論に残れる
+-->
+
+## 実例2: Event Storming — なぜ知識が生まれるのか
+<!-- _class: minor -->
+
+別々の頭の中にあった業務の知識が、一本の時間の流れに並ぶ
+
+- 誰も全体を知らない。営業も開発も運用も、知っているのは自分の担当の出来事だけ
+- 並べると食い違いや抜け（ホットスポット）が見え、そこで交わされる「それ、うちではこう呼んでいる」が新しい共通の言葉になる
+
+* 持ち寄り、混ぜ、少人数で対話する。DevOpsDays の Open Space と**同じ構造**が、ワークショップの形で組み込まれている
+
+<!--
+[18-19] 次の「2つの実例に共通する構造条件」への橋渡し
+- 異なる環境からの持ち寄り: 質問する人と答えを知っている人、部署の違う人を混ぜる
+- 持ち寄りを混ぜる共同モデリング: 一枚の壁・一本のタイムラインに全員が付箋を貼る
+- 少人数: 6〜8人
+- ホットスポットは DDD Crew のチートシートの用語（neon pink の付箋）
+- 「それ、うちではこう呼んでいる」はユビキタス言語の芽、という言い方で DDD の文脈に触れてもよい（ここは自分の解釈）
+TODO(hihats): 壁の上で食い違いが見えた体験があれば一言
 -->
 
 ## 知識創出の事例には事欠かない
@@ -411,6 +523,109 @@ TODO(hihats): 一次情報で確認する
   - アジャイル宣言: agilemanifesto.org/history（2001年2月11〜13日、17人）
   - ScrumPLoP: 公式サイト未確認（根拠はSutherlandのブログと二次情報。初回は2010年スウェーデン、書籍は2019年）
   - マイクロサービス: martinfowler.com の Microservices 記事未確認（2011年5月ヴェネツィア近郊のワークショップ、命名は2012年説あり）
+-->
+
+## Apache誕生物語 1/9 — NCSAという研究所
+<!-- _class: nolead -->
+
+![bg](images/apache_kamishibai/01.png)
+
+<!--
+[紙芝居 01／約45秒] テロップ: NCSAは、スーパーコンピュータを研究に活用するアメリカの研究機関だった。
+台本:
+舞台は、1990年代初めのアメリカ。イリノイ大学アーバナ・シャンペーン校に、NCSAという研究所がありました。正式には、National Center for Supercomputing Applications。日本語では『米国立スーパーコンピュータ応用研究所』などと呼ばれます。1986年に米国の国立科学財団、NSFの支援で設立され、研究者たちが高度な計算機を使えるようにする拠点でした。この場所から、初期のWebを大きく変えるソフトウェアが生まれます。
+紙芝居の前置き: 30pの年表の1行目（1995 Apache HTTP Server）を、物語として掘り下げる。全9枚・約6〜7分
+画像は歴史ドキュメンタリー風の再現イメージで、特定の場面を撮影した史料ではない。画面に出るソフトウェア画面・メール文面もイメージ
+参考: Apache HTTP Server「About the Apache HTTP Server Project」 https://httpd.apache.org/ABOUT_APACHE.html ／ NCSA「History」 https://www.ncsa.illinois.edu/about/history/
+-->
+
+## Apache誕生物語 2/9 — Mosaicの登場
+<!-- _class: nolead -->
+
+![bg](images/apache_kamishibai/02.png)
+
+<!--
+[紙芝居 02／約40秒] テロップ: NCSAで開発されたMosaicが、Webを世界に広めた。
+台本:
+それが、1993年に登場したWebブラウザ、NCSA Mosaicです。マーク・アンドリーセンやエリック・ビナらが開発に関わりました。テキストに加えて画像も扱いやすく、Webを見る体験を大きく変えました。ブラウザが広がると、今度はその向こう側でページを届けるWebサーバーも必要になります。
+-->
+
+## Apache誕生物語 3/9 — NCSA HTTPdの誕生
+<!-- _class: nolead -->
+
+![bg](images/apache_kamishibai/03.png)
+
+<!--
+[紙芝居 03／約40秒] テロップ: アンドリーセンの依頼で、Rob McCoolがNCSA HTTPdを開発した。
+台本:
+アンドリーセンは、既存のWebサーバーよりも小さく、扱いやすいものが欲しいと考えました。そこで同じNCSAのロブ・マックールに開発を依頼します。こうして生まれたのが、NCSA HTTPdです。後にApacheが受け継ぐことになるのは、このWebサーバーのコードでした。
+-->
+
+## Apache誕生物語 4/9 — Webの現場に広がる
+<!-- _class: nolead -->
+
+![bg](images/apache_kamishibai/04.png)
+
+<!--
+[紙芝居 04／約35秒] テロップ: NCSA HTTPdは無償で公開され、世界中で使われた。
+台本:
+NCSA HTTPdはソースコードとともに提供され、大学や研究機関、企業などに普及していきました。当時のWebを支える、重要な基盤の一つになります。でも、使う人が増えれば、不具合や足りない機能も見つかります。誰がそれを直していくのでしょうか。
+-->
+
+## Apache誕生物語 5/9 — Netscapeへ
+<!-- _class: nolead -->
+
+![bg](images/apache_kamishibai/05.png)
+
+<!--
+[紙芝居 05／約45秒] テロップ: 1994年、アンドリーセンはNetscapeを設立し、NCSA HTTPdの開発は停滞した。
+台本:
+1994年、アンドリーセンはNCSAを去り、ジム・クラークとともにMosaic Communications、後のNetscapeを設立します。マックールもNetscapeへ移り、商用Webサーバーの開発に進みました。一方、NCSA HTTPdの開発は停滞します。NCSA側の開発が永久に終わったわけではありませんが、その時期、利用者の現場では修正を待てない問題が積み上がっていました。
+-->
+
+## Apache誕生物語 6/9 — 利用者が開発者になる
+<!-- _class: nolead -->
+
+![bg](images/apache_kamishibai/06.png)
+
+<!--
+[紙芝居 06／約40秒] テロップ: Web管理者たちは、自分たちでバグ修正を始めた。
+台本:
+世界中の管理者にとって、Webサイトが動かないのは現実の問題です。誰かの修正を待っているわけにはいかない。そこで各地の管理者はソースコードを読み、自分のサイトに必要なパッチを作り始めました。でも、別々に直していては、同じ作業を何度も繰り返すことになります。
+-->
+
+## Apache誕生物語 7/9 — パッチを持ち寄る
+<!-- _class: nolead -->
+
+![bg](images/apache_kamishibai/07.png)
+
+<!--
+[紙芝居 07／約45秒] テロップ: メーリングリストでパッチを共有し、協力が広がった。
+台本:
+そこで役立ったのが電子メールとメーリングリストでした。『うちで同じバグが起きた』『このパッチを試してみて』『ここを直すと別の場所が壊れる』。管理者同士で差分を送り合い、テストし、改良していきます。個人の応急処置が、少しずつ共同の成果になっていったのです。ただし今度は、たくさんのパッチをどうまとめるかという問題が生まれます。
+-->
+
+## Apache誕生物語 8/9 — Apache Group
+<!-- _class: nolead -->
+
+![bg](images/apache_kamishibai/08.png)
+
+<!--
+[紙芝居 08／約45秒] テロップ: 1995年、8人の開発者でApache Groupが結成された。
+台本:
+1995年、ブライアン・ベーレンドルフらが協力の場を整え、8人の中核メンバーによるApache Groupが動き始めます。彼らは、一つの企業から命令を受けたチームではありません。自分たちのWebサーバーを動かしたいという共通の必要から集まった人々でした。修正を統合し、確認し、誰でも使える形で公開する。ここで、単なるパッチ交換が、継続的な共同開発に変わります。
+-->
+
+## Apache誕生物語 9/9 — Apacheという成果
+<!-- _class: nolead -->
+
+![bg](images/apache_kamishibai/09.png)
+
+<!--
+[紙芝居 09／約55秒] テロップ: Apacheは世界中のWebの基盤となった。
+台本:
+1995年4月、Apacheの初期公開版0.6.2が登場します。その年の12月には1.0を公開。翌1996年には、Webサイトに使われるWebサーバーとして、Apacheが最大のシェアを獲得しました。Netscapeの商用Webサーバーも当初は広く使われましたが、Apacheは利用者自身が直し、改善し、育てる仕組みを強みに成長していきました。1999年にはApache Software Foundationが設立され、その仕組みを長く支える組織にもなります。この物語が問いかけるのは、ソフトウェアを誰が最初に作ったかだけではありません。『それを、誰が育て続けるのか』ということです。
+注意: 画像内の「Web Server Market Share（Netcraft Survey）」のグラフはイメージで、実データではない。数値を聞かれたら Netcraft の調査そのものを示す
 -->
 
 ## 2つの実例に共通する構造条件
